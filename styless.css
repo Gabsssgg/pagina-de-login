@@ -69,3 +69,37 @@ body {
     font-weight: 600;
     box-shadow: 0 0 10px rgb(255, 255, 255, .1);
 }
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+    padding: 25px 20px;
+  }
+
+  .container h1 {
+    font-size: 28px;
+  }
+
+  .input-box input {
+    font-size: 14px;
+    padding: 15px 40px 15px 15px;
+  }
+
+  .input-box i {
+    font-size: 18px;
+    top: 30%;
+  }
+
+  .entrar {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+
+  .container h1 {
+    font-size: 24px;
+  }
+}
